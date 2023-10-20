@@ -33,7 +33,7 @@ public class Lab3Ex2 {
         System.out.println("Original String: " + input);
         System.out.println("Mirror Image: " + mirrorImage);
         
-        // Close the scanner to release system resources.
+       
         scanner.close();
     }
 }

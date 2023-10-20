@@ -27,18 +27,21 @@ public class Lab3Ex3 {
         }
         return String.valueOf(s);
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // Prompt the user to enter a string
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
 
+        // Call the replaceConsonants method to replace consonants in the string
         String result = replaceConsonants(input.toCharArray());
 
+        // Display the original and replaced strings
         System.out.println("Original String: " + input);
         System.out.println("Replaced String: " + result);
 
-        scanner.close(); // Close the scanner to release system resources
+        scanner.close();
     }
+
 }
